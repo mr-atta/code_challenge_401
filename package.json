@@ -1,0 +1,23 @@
+{
+  "name": "code_challenge_401",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mr-atta/code_challenge_401.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mr-atta/code_challenge_401/issues"
+  },
+  "homepage": "https://github.com/mr-atta/code_challenge_401#readme",
+  "dependencies": {
+    "jest": "^27.0.6",
+    "supertest": "^6.1.5"
+  }
+}
