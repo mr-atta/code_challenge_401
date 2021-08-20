@@ -4,11 +4,11 @@
 
 ## Whiteboard and Process
 
-![]()
+![05](./image/linked-list.PNG)
 
 # Singly Linked List
 
-<!-- Short summary or background information -->
+#### A singly linked linear list is a recursive data structure, because it contains a pointer to a smaller object of the same type
 
 ## Challenge
 
@@ -16,8 +16,13 @@
 
 ## Approach & Efficiency
 
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+- Create a Node class that has properties for the value stored in the Node
+- Create a Linked List class
+- Within your Linked List class, include a head property
+- The class should contain (insert, includes, to string) method
 
 ## API
 
-<!-- Description of each method publicly available to your Linked List -->
+- insert() >>> take a value to add a new node to the list
+- include() >>> to check if the value is in the list or not, return Boolean
+- toString >>> a string representing all the values in the Linked List , return string
