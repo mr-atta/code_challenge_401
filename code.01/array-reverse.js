@@ -19,8 +19,8 @@ let arr3 = [
 
 arrayReverse(arr1);
 
-console.log(arrayReverse(arr1));
-console.log(arrayReverse(arr2));
-console.log(arrayReverse(arr3));
+// console.log(arrayReverse(arr1));
+// console.log(arrayReverse(arr2));
+// console.log(arrayReverse(arr3));
 
 module.exports = arrayReverse;

@@ -69,7 +69,7 @@ class LinkList {
       list = list + `{${current.value}} ->`;
       current = current.next;
     }
-    console.log(list);
+    // console.log(list);
     return (list = list + "null");
   }
 }

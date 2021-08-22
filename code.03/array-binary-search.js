@@ -44,9 +44,9 @@ let Array4 = [1, 2, 3, 5, 6, 7]; // 4 >> -1
 
 searchArrBainary(Array1, 15);
 
-console.log(searchArrBainary(Array1, 15));
-console.log(searchArrBainary(Array2, 42));
-console.log(searchArrBainary(Array3, 90));
-console.log(searchArrBainary(Array4, 4));
+// console.log(searchArrBainary(Array1, 15));
+// console.log(searchArrBainary(Array2, 42));
+// console.log(searchArrBainary(Array3, 90));
+// console.log(searchArrBainary(Array4, 4));
 
 module.exports = searchArrBainary;

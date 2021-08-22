@@ -20,7 +20,7 @@ let arr2 = [42, 8, 15, 23, 42]; // 16 // [42,8,15,16,23,42]
 
 arrayspliced(arr1, 5);
 
-console.log(arrayspliced(arr1, 5));
-console.log(arrayspliced(arr2, 16));
+// console.log(arrayspliced(arr1, 5));
+// console.log(arrayspliced(arr2, 16));
 
 module.exports = arrayspliced;
