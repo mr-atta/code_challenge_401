@@ -122,6 +122,30 @@ class LinkList {
     this.length++;
   }
 
+  kthFromEnd(k) {
+    let count = 0;
+    let current = this.head;
+
+    let arry = [];
+
+    while (current) {
+      arry.push(current.value);
+      current = current.next;
+    }
+
+    // console.log(arry);
+    arry.reverse();
+    // console.log(arry);
+
+    if (k >= arry.length || k < 0) {
+      return "out of the range";
+    } else {
+      console.log(arry[k]);
+      //   console.log(k);
+      return arry[k];
+    }
+  }
+
   printData() {
     let current = this.head;
 
@@ -138,17 +162,22 @@ newListLL.append(5); // 5
 newListLL.append(10); // 5 , 10
 newListLL.append(15); // 5 , 10 , 15
 
-newListLL.insert(20); // 5 , 10 , 15 , 20
+newListLL.kthFromEnd(1);
 
-newListLL.insertBefore(12, 2); // 5 , 10 , 12 , 15 , 20
-newListLL.insertAfter(16, 3); // 5 , 10 , 12 , 15, 16 , 20
+/////////////////////
+
+// newListLL.insert(20); // 5 , 10 , 15 , 20
+
+// newListLL.insertBefore(12, 2); // 5 , 10 , 12 , 15 , 20
+// newListLL.insertAfter(16, 3); // 5 , 10 , 12 , 15, 16 , 20
 
 // console.log(newListLL.append(5));
 // console.log(newListLL.append(10));
 
 // console.log(newListLL.insert(15));
 
+newListLL.printData();
+
 // console.log(newListLL);
-// newListLL.printData();
 
 module.exports = LinkList;
