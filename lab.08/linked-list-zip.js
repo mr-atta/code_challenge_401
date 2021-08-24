@@ -122,28 +122,81 @@ class LinkList {
     this.length++;
   }
 
-  kthFromEnd(k) {
-    let count = 0;
-    let current = this.head;
+  //   kthFromEnd(k) {
+  //     let count = 0;
+  //     let current = this.head;
 
-    let arry = [];
+  //     let arry = [];
 
-    while (current) {
-      arry.push(current.value);
-      current = current.next;
+  //     while (current) {
+  //       arry.push(current.value);
+  //       current = current.next;
+  //     }
+
+  //     // console.log(arry);
+  //     arry.reverse();
+  //     // console.log(arry);
+
+  //     if (k >= arry.length || k < 0) {
+  //       return "out of the range";
+  //     } else {
+  //       console.log(arry[k]);
+  //       //   console.log(k);
+  //       return arry[k];
+  //     }
+  //   }
+  //
+  zipLists(l1, l2) {
+    if (!l1.head && !l2.head) {
+      return;
+    }
+    if (!l1.head) {
+      return l2;
+    }
+    if (!l2.head) {
+      return l1;
     }
 
-    // console.log(arry);
-    arry.reverse();
-    // console.log(arry);
+    let LL = new LinkList();
 
-    if (k >= arry.length || k < 0) {
-      return "out of the range";
+    let cunt = 0;
+
+    if (l1.length > l2.length) {
+      cunt = l1.length;
     } else {
-      // console.log(arry[k]);
-      //   console.log(k);
-      return arry[k];
+      cunt = l2.length;
     }
+
+    LL.append(l1.head.value);
+    LL.append(l2.head.value);
+
+    let current1 = l1.head;
+    let current2 = l2.head;
+
+    for (let index = 0; index < cunt; index++) {
+      /////////////////////////////////////
+      if (current1.next) {
+        LL.append(current1.next.value);
+        current1 = current1.next;
+      }
+      if (current2.next) {
+        LL.append(current2.next.value);
+        current1 = current2.next;
+      }
+      //////////////////////////////////////
+    }
+
+    //////////////////////////////////////
+    // console.log(current1);
+    // console.log(current2);
+    // console.log(LL);
+
+    //////////////////////////////////////
+    // LL.printData();
+    // console.log(LL.head.value);
+    // console.log(LL.head.next.value);
+
+    return LL;
   }
 
   printData() {
@@ -157,27 +210,28 @@ class LinkList {
 }
 
 let newListLL = new LinkList();
+let newListLL2 = new LinkList();
 
 newListLL.append(5); // 5
 newListLL.append(10); // 5 , 10
 newListLL.append(15); // 5 , 10 , 15
 
-newListLL.kthFromEnd(1);
+newListLL2.append(1); // 5
+newListLL2.append(2); // 5 , 10
+newListLL2.append(3); // 5 , 10 , 15
+// newListLL.kthFromEnd(1);
+let newListLLLL = new LinkList();
 
 /////////////////////
 
-// newListLL.insert(20); // 5 , 10 , 15 , 20
+newListLLLL.zipLists(newListLL, newListLL2); // done
 
-// newListLL.insertBefore(12, 2); // 5 , 10 , 12 , 15 , 20
-// newListLL.insertAfter(16, 3); // 5 , 10 , 12 , 15, 16 , 20
-
-// console.log(newListLL.append(5));
-// console.log(newListLL.append(10));
-
-// console.log(newListLL.insert(15));
+/////////////////////
 
 // newListLL.printData();
+// newListLL2.printData();
 
 // console.log(newListLL);
+// console.log(newListLL2);
 
 module.exports = LinkList;
