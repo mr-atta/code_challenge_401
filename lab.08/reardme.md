@@ -1,4 +1,4 @@
-# linked-list-kth (lab 07)
+# linked-list-zip (lab 08)
 
 ## Challenge
 
