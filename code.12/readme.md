@@ -8,7 +8,10 @@
 
 <br>
 
-////////////////////////
+[github](https://github.com/mr-atta/code_challenge_401/tree/main/code.12)
+[code AnimalShelter](https://github.com/mr-atta/code_challenge_401/blob/main/code.12/stack-queue-animal-shelter.js)
+
+<br>
 
 ## Approach & Efficiency
 
@@ -20,10 +23,10 @@
 
 <br>
 
-- I create a class 'Node' I will use it in other classes to create our node
-- and I create another class called PseudoQueue that has access to another one called Stack.
-- The PseudoQueue class has a constructor and method, the constructor will create stackOne and stackTwo from Stack class
-- and the method enqueue will take a value and it can add a one to the stack, the method dequeue doesn't take the value and can delete one from the top of the stack
+- Create a class 'Animal' I will use it in other classes to create our node
+- and I create another class called AnimalShelter that has access to another one called Queue.
+- The AnimalShelter class has a constructor and method, the constructor will have this.cat is a Queue obj and this.dog is a Queue obj
+- and the method enqueue will take a value and it can add a one to the Queue , the method dequeue doesn't take the value and can delete one from the top of the Queue
 
 - Testing the code and check if we can add and delete by enqueue and dequeue methods by comparing the results.
 
@@ -31,19 +34,10 @@
 
 ## API
 
-////////////////////////
-
-### stack
-
-- push(value) : adds a new node with that value to the top of the stack with an O(1) Time performance.
-- pop() : Removes the node from the top of the stack
-
 ### queue
 
-- enqueue(value) : adds a new node with that value to the back of the queue with an O(1) Time performance.
-- dequeue() : Removes the node from the front of the queue
-- peek() : Returns the Value of the node located at the front of the queue
-- isEmpty() : Returns a boolean indicating whether or not the queue is empty
+- **enqueue**(value) : adds a new node with that value to the back of the queue with an O(1) Time performance.
+- **dequeue**() : Removes the node from the front of the queue
 
 <br>
 
@@ -62,13 +56,13 @@
 
 ## Whiteboard Process
 
-![Whiteboard ]()
+![Whiteboard ](./img/code-12-test.PNG)
 
 <br>
 
 ## test :
 
-![test]()
+![test](./img/test-code-12.PNG)
 
 <br>
 
