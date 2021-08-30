@@ -15,7 +15,15 @@
 - Thinking and search how to solve and deal with this issue
 
 - Start writing the code
-- Testing the code
+
+<br>
+
+- I create a class 'Node' I will use it in other classes to create our node
+- and I create another class called PseudoQueue that has access to another one called Stack.
+- The PseudoQueue class has a constructor and method, the constructor will create stackOne and stackTwo from Stack class
+- and the method enqueue will take a value and it can add a one to the stack, the method dequeue doesn't take the value and can delete one from the top of the stack
+
+- Testing the code and check if we can add and delete by enqueue and dequeue methods by comparing the results.
 
 <br>
 
