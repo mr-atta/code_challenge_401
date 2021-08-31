@@ -2,7 +2,13 @@
 
 ## Challenge
 
+[code_challenge_401](https://github.com/mr-atta/code_challenge_401)
+
 - Implement a **Stack** and a **Queue**, By using a _Linked List_ as the underlying data storage mechanism.
+
+## witghbord
+
+![witghbord](./image/Code10-w.PNG)
 
 ## test code
 
@@ -32,9 +38,25 @@
 
 - Thinking and search how to solve and deal with this issue
 
+- creat Node class to generate our object
+- creat queue and stack classes to create objectes useing Node class
+
 - Start writing the code
-- Testing the code
+
+- Testing the code by comber the result from the methodes
 
 <br>
+
+### stack
+
+- push(value) : adds a new node with that value to the top of the stack with an O(1) Time performance.
+- pop() : Removes the node from the top of the stack
+
+### queue
+
+- enqueue(value) : adds a new node with that value to the back of the queue with an O(1) Time performance.
+- dequeue() : Removes the node from the front of the queue
+- peek() : Returns the Value of the node located at the front of the queue
+- isEmpty() : Returns a boolean indicating whether or not the queue is empty
 
 > Time taken :: 40 min
