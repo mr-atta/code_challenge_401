@@ -28,7 +28,7 @@ class BinarySearchTree extends BinaryTree {
         }
       } else if (node.value > currentNode.value) {
         // right side
-        console.log(node, node.value, currentNode, currentNode.value);
+        // console.log(node, node.value, currentNode, currentNode.value);
         if (!currentNode.right) {
           // if we dont have right
           // add
