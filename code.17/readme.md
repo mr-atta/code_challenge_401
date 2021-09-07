@@ -33,7 +33,7 @@
 
 ## **Big O time** >>> `O(n)`
 
-## **Big O space** >>> `O(1)`
+## **Big O space** >>> `O(h)`
 
 <br>
 <br>
