@@ -27,11 +27,11 @@
 
 ## whitbord
 
-![whitbord](./img/Code16w.PNG)
+![whitbord](./img/InkedCode16w_LI.jpg)
 
 ## **Big O time** >>> `O(n)`
 
-## **Big O space** >>> `O(1)`
+## **Big O space** >>> `O(h)`
 
 <br>
 <br>
