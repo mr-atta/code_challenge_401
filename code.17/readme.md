@@ -29,11 +29,11 @@
 
 ## whitbord
 
-![whitbord](./img/Code17.w.PNG)
+![whitbord](./img/InkedCode17.w_LI.jpg)
 
 ## **Big O time** >>> `O(n)`
 
-## **Big O space** >>> `O(1)`
+## **Big O space** >>> `O(n)`
 
 <br>
 <br>
