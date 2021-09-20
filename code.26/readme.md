@@ -12,7 +12,7 @@
 
 ## **_tracing_**
 
-![tracing](./Capture---tra.PNG)
+![tracing](./img/Capture---tra.PNG)
 
 ## whitbord
 
