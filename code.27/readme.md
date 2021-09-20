@@ -10,22 +10,26 @@
 
 <br>
 
-## whitbord
+<!-- ## whitbord -->
 
-![whitbord]()
+<!-- ![whitbord]() -->
 
-![pseudocode]()
+<!-- ![pseudocode]() -->
 
-<!-- ## **Big O time** >>> `O(n)` -->
+## **Big O time** >>> `O(n)` -->
 
-<!-- ## **Big O space** >>> `O(h)` -->
+## **Big O space** >>> `O(n)`
 
 <br>
 <br>
+
+## **_tracing_**
+
+![tracing]()
 
 ## Test
 
-![test]()
+![test](./img/C-27-test.PNG)
 
 ### Test by : npm test
 
