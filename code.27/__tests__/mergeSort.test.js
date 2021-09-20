@@ -3,13 +3,19 @@
 const mergeSort = require("../mergeSort");
 
 describe("test", () => {
-  it("mergeSort test", () => {
-    let arr0 = [8, 4, 23, 42, 16, 15];
-    let arr1 = [8, 15, 6];
+  it("mergeSort()", () => {
+    let arr = [4, 8, 7, 2, 11, 1, 3];
 
-    // console.log(insertionSort(arr1));
+    expect(mergeSort(arr)).toEqual([1, 2, 3, 4, 7, 8, 11]);
+  });
 
-    expect(mergeSort(arr1)).toEqual([6, 8, 15]);
-    expect(mergeSort(arr0)).toEqual([4, 8, 15, 16, 23, 42]);
+  it("sort the array", () => {
+    let arr = [8, 4, 23, 42, 16, 15];
+    expect(mergeSort(arr)).toEqual([4, 8, 15, 16, 23, 42]);
+  });
+
+  it("should retrun empty", () => {
+    let arr = [];
+    expect(mergeSort(arr)).toEqual(arr);
   });
 });
