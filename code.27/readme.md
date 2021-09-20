@@ -6,19 +6,15 @@
 <hr>
 <br>
 
-### [git hub link](https://github.com/mr-atta/code_challenge_401/tree/main/code.26)
+### [git hub link](https://github.com/mr-atta/code_challenge_401/tree/main/code.27)
 
 <br>
 
-## **_tracing_**
-
-![tracing](./Capture---tra.PNG)
-
 ## whitbord
 
-![whitbord](./img/Capture26.PNG)
+![whitbord]()
 
-![pseudocode](./img/CodeC-26.PNG)
+![pseudocode]()
 
 <!-- ## **Big O time** >>> `O(n)` -->
 
@@ -29,7 +25,7 @@
 
 ## Test
 
-![test](./img/Capture----.PNG)
+![test]()
 
 ### Test by : npm test
 
@@ -38,8 +34,8 @@
 
 ### Branch Name
 
-> `insertion-Sort`
+> `MergeSort`
 
 <br>
 
-> Time taken :: 35 min
+> Time taken :: 40 min
