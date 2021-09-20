@@ -1,4 +1,4 @@
-# Challenge 26 (Insertion-Sort)
+# Challenge 27 (Merge-Sort)
 
 ![Sort](https://blog.hubspot.com/hubfs/how-to-sort-in-excel.jpg)
 
@@ -16,7 +16,7 @@
 
 <!-- ![pseudocode]() -->
 
-## **Big O time** >>> `O(n)` -->
+## **Big O time** >>> `O(n)`
 
 ## **Big O space** >>> `O(n)`
 
