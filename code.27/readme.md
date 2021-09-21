@@ -1,6 +1,6 @@
 # Challenge 27 (Merge-Sort)
 
-![Sort](https://blog.hubspot.com/hubfs/how-to-sort-in-excel.jpg)
+<!-- ![Sort](https://blog.hubspot.com/hubfs/how-to-sort-in-excel.jpg) -->
 
 <br>
 <hr>
@@ -16,20 +16,20 @@
 
 <!-- ![pseudocode]() -->
 
-## **Big O time** >>> `O(n)`
+## **Big O time** >>> `O(n log n)`
 
 ## **Big O space** >>> `O(n)`
 
 <br>
 <br>
 
-## **_tracing_**
+## **_Tracing_**
 
-![tracing]()
+![tracing](./img/Merge-Sort-Tutorial.png)
 
 ## Test
 
-![test](./img/C-27-test.PNG)
+![test](./img/Capture27.PNG)
 
 ### Test by : npm test
 

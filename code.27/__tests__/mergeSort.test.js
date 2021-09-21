@@ -18,4 +18,15 @@ describe("test", () => {
     let arr = [];
     expect(mergeSort(arr)).toEqual(arr);
   });
+  it(" reverse-sorted array", () => {
+    let arr = [30, 25, 10, 7, 5, -5];
+
+    expect(mergeSort(arr)).toEqual([-5, 5, 7, 10, 25, 30]);
+  });
+
+  it("few uniques", () => {
+    let arr = [3, 8, 7, 3, 3, 7];
+
+    expect(mergeSort(arr)).toEqual([3, 3, 3, 7, 7, 8]);
+  });
 });
