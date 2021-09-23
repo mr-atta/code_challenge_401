@@ -15,7 +15,7 @@
 
 ## **_Tracing_**
 
-![tracing](./img/Merge-Sort-Tutorial.png)
+![tracing](./img/Quicksort.png)
 
 ## **Big O time** >>> `O(n log n)`
 
