@@ -31,10 +31,6 @@ some times I avoided declaring unnecessary variables like in return.
 
 <!-- ![pseudocode]() -->
 
-## **_Tracing_**
-
-![tracing]()
-
 ## **Big O time** >> to search >> `O(n^2)`
 
 ## **Big O space** >>> `O(1)`
@@ -44,7 +40,7 @@ some times I avoided declaring unnecessary variables like in return.
 
 ## Test
 
-![test](./img/Code-31-test.PNG)
+![test](./img/Capture31-update-test.PNG)
 
 ### Test by : npm test
 
